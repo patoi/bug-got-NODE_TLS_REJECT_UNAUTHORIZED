@@ -6,11 +6,11 @@ Bug reporduction for ignored NODE_TLS_REJECT_UNAUTHORIZED in got v12.5.2
 NODE_TLS_REJECT_UNAUTHORIZED='0' node http.request.mjs
 ```
 
-With NODE_TLS_REJECT_UNAUTHORIZED='0', Node.js http module request method ignores TLS handshake error, e.g: request a test webserver with production webserver certificate.
+With `NODE_TLS_REJECT_UNAUTHORIZED='0'`, Node.js http module request method ignores TLS handshake error, e.g: request a test webserver with production webserver certificate.
 
 In `got` v11, it works as Node.js http request.
 
-**In `got` v12.5.2, occurs an error, because NODE_TLS_REJECT_UNAUTHORIZED='0' is ignored.**
+**In `got` v12.5.2 occured an error, because NODE_TLS_REJECT_UNAUTHORIZED='0' is ignored.**
 
 ## Reproducing
 
