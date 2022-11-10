@@ -1,0 +1,9 @@
+{
+  "_doc": {
+    "got-old": "11.8.5",
+    "got-actual": "12.5.2"
+  },
+  "dependencies": {
+    "got": "11.8.5"
+  }
+}
